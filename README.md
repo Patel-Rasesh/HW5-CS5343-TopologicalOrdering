@@ -10,12 +10,13 @@ This repository covers Breadth-First Search (BFS) and Depth First Search (DFS) f
 # Breadth-First Search (BFS)
 Since at the beginning we are concentrating on a node and its neighbors (therefore Breadth-First search), we will sequentially consider each node with smallest in-degree (or predecessor count).
 ###### Definition : In-degree of a node is a count of incoming edges to that node.
-Step 1 - Start with a node that has 0 in-degree.
-Step 2 - Add that node to the final sorted queue.
-Step 3 - Recompute in-degree for each node.
-Step 4 - Repeat step 1.
-Step 5 - If no node with 0 in-degree is found, a cycle is detected in your directed graph.
-Step 6 - Return the queue.
+Steps - 
+1. Start with a node that has 0 in-degree.
+2. Add that node to the final sorted queue.
+3. Recompute in-degree for each node.
+4. Repeat step 1.
+5. If no node with 0 in-degree is found, a cycle is detected in your directed graph.
+6. Return the queue.
 
 # Depth-First Search (DFS)
 While our objective of sorting a graph is same as before, in this technique we are maintaining two flags (boolean variables) - visited and done.
