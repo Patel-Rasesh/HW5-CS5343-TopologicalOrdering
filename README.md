@@ -1,7 +1,7 @@
 # Sorting algorithm for interdependent tasks
-Consider a task A which is dependent on tasks B and C - accompanying notation is (A > B, C),
-and task B is dependent on tasks X and Y - (B > X, Y).
-If we are asked to run A, we need to perform and complete X and Y first. To figure out such interdependency, we use topological sorting algorithms.
+Consider a task A which is dependent on tasks B and C - accompanying notation is (A -> B, C),
+and task B is dependent on tasks X and Y - (B -> X, Y).
+If we were to run A, we need to perform and complete X and Y first. To figure out such interdependency, we use this topological sorting algorithmm which is presented here.
 
 ## TopologicalOrdering
 This repository covers Breadth-First Search (BFS) and Depth First Search (DFS) for Topological Ordering or sorting. I will cover it for predetermined directed graphs.
